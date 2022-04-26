@@ -41,11 +41,25 @@ body {
   }
   
   .game {
-    display: flex;
-    flex-direction: row;
+   margin-left:45% ;
   }
   
   .game-info {
     margin-left: 20px;
   }
-  
+  footer{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      background-color: red;
+      width: 100%;
+  }
+  h3{
+      text-align: center;
+  }
+  h1{
+      color: red;
+  }
+.board{
+    height: 200px;
+}
