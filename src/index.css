@@ -19,17 +19,17 @@ body {
   
   .square {
     background: #fff;
-    border: 1px solid #999;
+    border: 10px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 50px;
+    color: blue;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
+    height: 100px;
+ 
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 100px;
   }
   
   .square:focus {
@@ -44,12 +44,11 @@ body {
    margin-left:45% ;
   }
   
-  .game-info {
-    margin-left: 20px;
-  }
+
   footer{
       position: fixed;
       bottom: 0;
+      color: white;
       left: 0;
       background-color: red;
       width: 100%;
@@ -62,4 +61,8 @@ body {
   }
 .board{
     height: 200px;
+}
+h2{
+  color: green;
+  font-weight: 300;
 }
